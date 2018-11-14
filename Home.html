@@ -1,0 +1,238 @@
+﻿<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>Sahara café Nitra - príjemné posedenie v exotickom prostredí</title>
+    <meta name="description" content="Sahara café Nitra je jedinecný a štýlový podnik s nádychom Orientu, ktorý v Nitre chýbal. My sme pre Vás vytvorili miesto, kde si môžete príjemne posediet s priatelmi pri vodnej fajke. Neváhajte a navštívte nás! U nás si každý pôžitkár príde na svoje.">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="Sahara/sahara-icon.jpg">
+    <link rel="stylesheet" href="StyleSheet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="JavaScript.js"></script>
+</head>
+<body>
+    <header class="background" id="showcase">
+        <div class="topnav" id="navigation-bar">
+            <span class="navbar-link"><b>Sahara café</b></span>
+            <a href="Home.html" class="navbar-link">Doma</a>
+            <a href="Menu.html" class="navbar-link">Menu</a>
+            <a href="WaterPipes.html" class="navbar-link">Vodné fajky</a>
+            <a href="https://www.google.com/maps/place/Sahara+Caf%C3%A9/@48.31018,18.087568,19z/data=!4m5!3m4!1s0x0:0xe7aa6a37430b2165!8m2!3d48.3100745!4d18.0875835?hl=en-US" target="_blank" class="navbar-link">Kde nás najdete</a>
+            <a href="Contact.html" class="navbar-link">Kontakt</a>
+            <a href="Gallery.html" class="navbar-link">Galéria</a>
+        </div>
+
+        <div id="showcase-header">
+            <button class="right-button" onclick="nextSlide()">&#10095;</button>
+            <div class="header-text">
+                <h1>Sahara café Nitra</h1>
+                <p>Príjemné posedenie v exotickom prostredí</p>
+            </div>
+            <button class="left-button" onclick="prevSlide()">&#10094;</button>
+        </div>
+    </header>
+
+    <!-- Papyrus
+        <div id="section-1">
+        <img src="Sahara/papyrus.jpg" width="1000" />
+        <div class="about-text">
+            <h1>O Sahare</h1>
+            <p>
+                <b>
+                    Sahara café Nitra je jedinecný a štýlový podnik s nádychom Orientu,
+                    ktorý v Nitre chýbal. My sme pre Vás vytvorili miesto, kde si môžete
+                    príjemne posediet s priatelmi pri vodnej fajke. Neváhajte a navštívte
+                    nás! U nás si každý pôžitkár príde na svoje.
+                </b>
+            </p>
+        </div>
+    </div>
+    -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <iframe width="420" height="240" src="https://www.youtube.com/embed/2-A4Te4EriE"></iframe>
+            </div>
+            <div class="col-sm-6 about-text">
+                <h1>O Sahare</h1>
+                <p class="paragraph">
+                    Sahara café Nitra je jedinecný a štýlový podnik s nádychom Orientu,
+                    ktorý v Nitre chýbal. My sme pre Vás vytvorili miesto, kde si môžete
+                    príjemne posediet s priatelmi pri vodnej fajke. Neváhajte a navštívte
+                    nás! U nás si každý pôžitkár príde na svoje.
+                </p>
+            </div>
+        </div>
+
+        <hr />
+
+        <div class="main-page-menu">
+            <h2 class="text-center">Ponúkame Vám</h2>
+            <button class="left-button black-btn" onclick="currentMenuSlide--; refreshMenuShowcase();">&#10094;</button>
+            <button class="right-button black-btn" onclick="currentMenuSlide++; refreshMenuShowcase();">&#10095;</button>
+            <div class="row">
+                <div class="col-sm-4 menu-item">
+                    <img src="Sahara/coffee.jpg" width="350" onclick="window.location.href='Menu.html'" class="menu-img" />
+                    <div class="menu-item-text">Káva</div>
+                </div>
+                <div class="col-sm-4 menu-item">
+                    <img src="Sahara/cake.jpg" width="350" onclick="window.location.href='Menu.html'" class="menu-img" />
+                    <div class="menu-item-text">Dezert</div>
+                </div>
+                <div class="col-sm-4 menu-item">
+                    <img src="Sahara/sahara4.jpg" width="350" onclick="window.location.href='Menu.html'" class="menu-img" />
+                    <div class="menu-item-text">Smoothie</div>
+                </div>
+            </div>
+        </div>
+
+        <hr />
+
+        <div class="row">
+            <div class="col-sm-6">
+                <h2>Prídte si k nám oddýchnut</h2>
+                <p class="paragraph">
+                    Sahara café Nitra predstavuje úplne netradičné
+                    posedenie v prostredí, kde zažijete maximálny relax pri skvelej káve,
+                    caji, drinku ci vodnej fajke pocas pocúvania relaxačnej hudby.
+                </p>
+            </div>
+        </div>
+        <div class="row" style="margin-bottom: -100px">
+            <div class="col-sm-6">
+                <img class="side-pics" src="Sahara/real-sahara.jpg" />
+            </div>
+            <div class="col-sm-6">
+                <img class="side-pics" src="Sahara/sahara-new.jpg" id="posedenie-v" />
+            </div>
+        </div>
+
+        <hr />
+
+        <div class="row">
+            <div class="col-sm-6">
+                <img class="side-pics" src="Sahara/cool.jpg" />
+            </div>
+            <div class="col-sm-6">
+                <h2>Posedenie v exotickom prostredí</h2>
+                <p class="paragraph">
+                    Sahara café Nitra je jedinečný a štýlový podnik s nádychom Orientu,
+                    ktorý v Nitre chýbal. My sme pre Vás vytvorili miesto, kde si môžete
+                    príjemne posediet s priatelmi pri vodnej fajke. Neváhajte a navštívte
+                    nás! U nás si každý pôžitkár príde na svoje.
+                </p>
+            </div>
+        </div>
+
+        <!--
+        <div class="row">
+            <div class="col-sm-6">
+                <h2>Ponúkame Vám</h2>
+                <p class="paragraph">
+                    Sahara café Nitra Vám ponúka kávu vyrobenú z kvalitných surovín
+                    a taktiež rôzne druhy exotických cajov, ako napríklad Marocký
+                    mätový, japonské, cínske aj prémiový francúzsky Dammann. Sme
+                    jediným miestom na Slovensku, kde môžete zažit jedinecnú atmosféru
+                    rituálu podávania pravého marockého caju. Pripravujeme pre našich
+                    hostí tematické vecery - Francúzska, Španielska ci Marocká noc, kedy sa
+                    môžete tešit na typické nápoje a hudbu. Chceme, aby
+                    každá chvíla strávená v našom podniku, bola originálna.
+                </p>
+            </div>
+            <div class="col-sm-6 double-img">
+                <img class="side-pics" src="Sahara/sahara3.jpg" />
+                <img class="side-pics" src="Sahara/sahara11.jpg" />
+            </div>
+        </div>
+        -->
+
+        <hr />
+
+        <div class="row">
+            <div class="col-sm-6">
+                <img class="side-pics" src="Sahara/sahara4.jpg" />
+            </div>
+            <div class="col-sm-6">
+                <h2>Osviežte sa drinkom</h2>
+                <p class="paragraph">
+                    Ak máte chut osviežit sa drinkom, zavítajte k nám! Ponúkame
+                    vám skvelé džúsy a smoothie, ktoré Vás
+                    v letných dnoch nabudia energiou. Prídte si k nám dopriat lahodný
+                    pôžitok z nápojov pripravených podla receptúry Jamieho Olivera!
+                    Do pozornosti dávame, že v našom podniku sa nepodávajú alkoholické nápoje.
+                    Namiesto alkoholu, vyskúšajte naše nealko koktejly, bavte
+                    sa a odhalujte život s jasnou myslou.
+                </p>
+            </div>
+        </div>
+
+        <hr />
+
+        <div class="row">
+            <div class="col-sm-6">
+                <h2>Relax pri cigare</h2>
+                <p class="paragraph">
+                    Urcite Vám po nárocnom dni v práci padne vhod
+                    posedenie pri dobrej hudbe. V našom oddelenom
+                    salóniku pre fajciarov s vlastnou kvalitnou vzduchotechnikou
+                    si môžete dopriat maximálny pôžitok z kvalitných cigár.
+                </p>
+            </div>
+            <div class="col-sm-3 double-img-cigar">
+                <img src="Sahara/sahara6.jpg" />
+            </div>
+            <div class="col-sm-3 double-img-cigar">
+                <img src="Sahara/sahara7.jpg" />
+            </div>
+        </div>
+
+        <hr />
+
+        <div class="centered-content">
+            <h1>Vychutnajte si pôžitok z vodnej fajky</h1>
+            <div class="text-left">
+                <p>
+                    Urcite si v našej kaviarni vychutnajte fajcenie vodnej fajky.
+                    Máme na výber z rôznych príchutí tabaku, ktoré sme prinesli z
+                    Dubaja. Vyskúšajte exotické príchute melónu, jemnú a sladkú
+                    chut žuvacky, alebo cerstvú chut mäty. Alebo ostante verní
+                    klasickej príchuti dvojitého jablka. Máme pre Vás aj netabakovú
+                    verziu.
+                </p>
+            </div>
+            <div class="row" id="water-pipe-links">
+                <div class="col-sm-6">
+                    <img src="Sahara/shisha.jpg" onclick="window.location.href='WaterPipes.html'" height="600" />
+                </div>
+                <div class="col-sm-6">
+                    <img src="Sahara/shisha2.jpg" onclick="window.location.href='WaterPipes.html'" height="600" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr />
+
+    <!--<div class="stars">
+        <h1>4.6</h1>
+        <div class="star-ratings-css">
+            <div class="star-ratings-css-top" id="star-percent">
+                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <div class="star-ratings-css-bottom">
+                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+        </div>
+    </div>-->
+
+    <hr />
+
+    <footer class="container-fluid bg-4 text-center">
+        <p>© Sahara café Nitra</p>
+    </footer>
+</body>
+</html>

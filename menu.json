@@ -1,0 +1,353 @@
+﻿{
+  "content": [
+    {
+      "category": "Káva",
+      "items": [
+        {
+          "name": "ESPRESSO/RISTRETTO 7 g",
+          "description": ""
+        },
+        {
+          "name": "ESPRESSO DOPPIO 14 g",
+          "description": ""
+        },
+        {
+          "name": "ESPRESSO MACCHIATO",
+          "description": "7 g | mlieko 0,03 l"
+        },
+        {
+          "name": "CAPPUCCINO",
+          "description": "7 g | mlieko 0,1 l"
+        },
+        {
+          "name": "CAPPUCCINO XL",
+          "description": "14 g | mlieko 0,2 l"
+        },
+        {
+          "name": "CAFFÉ LATTE MACCHIATO",
+          "description": "7 g | mlieko 0,2 l"
+        },
+        {
+          "name": "VIEDENSKÁ KÁVA",
+          "description": "7 g | šľahačka 30 g"
+        },
+        {
+          "name": "Marocká Káva",
+          "description": ""
+        },
+        {
+          "name": "MLIENKO DO KÁVY 30 g",
+          "description": ""
+        },
+        {
+          "name": "MANDĽOVÉ ALEBO SÓJOVÉ MLIEKO DO KÁVY 30 g",
+          "description": ""
+        },
+        {
+          "name": "SMOTANA MARESI 30 g",
+          "description": ""
+        },
+        {
+          "name": "ŠĽAHAČKA 30 g",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "category": "Čaj",
+      "items": [
+        {
+          "name": "Pravý Marocký mätový čaj s čerstvou mätou",
+          "description": ""
+        },
+        {
+          "name": "Verbenový čaj",
+          "description": ""
+        },
+        {
+          "name": "Poklad Perzie",
+          "description": "Ovocný čaj vysokej kvality a vynikajúcej chuti.<br>Zloženie: jabĺčka, zázvor, citrón, prírodná vôňa"
+        },
+        {
+          "name": "Pin Pivonk",
+          "description": "Voňavý biely čaj vhodný na osvieženie a hormonizáciu tela i duše.<br>Zloženie: Biely čaj Pai Mu Tan, citrónová tráva, kandižované guave, jahody, lupienky slničníc a ruží, prírodná vôňa"
+        },
+        {
+          "name": "Earl Grey Špeciál",
+          "description": "Čierny voňavý čaj: Klasický čaj s príjemnou bergamotovou vôňou<br>Zloženie: čierny čaj, silica bergamotu, prírodná vôňa"
+        },
+        {
+          "name": "Nílsky čaj",
+          "description": "Príjemný bylinný čaj - Africký čaj rooibos pre pohľadenie duše<br>Výborný s mliekom a kvapkou medu<br>Zloženie: rooibos, kúsky vanilky, prírodná vôňa"
+        },
+        {
+          "name": "Jin-Jang",
+          "description": "Čierny voňavý čaj<br>Čaj na očistu, zoštíhlenie a posilnenie tela<br>Zloženie: pu erh, rooibos, honeybush, čínsky čierny čaj, mäta nana, vanilka, jahody, prírodná vôňa"
+        },
+        {
+          "name": "Lemonica",
+          "description": "Voňavý zelený čínsky čaj. Svieži čaj očisty a vitality<br>Zloženie: zelený čaj, citrón, pomaranč, kvety nechtíka, prírodná vôňa"
+        },
+        {
+          "name": "Titicaca",
+          "description": "Ovocný čaj vysokej kvality a vynikajúcej chuti.<br>Zloženie: ananás, jabĺčka, prírodná vôňa"
+        },
+        {
+          "name": "Balkanika",
+          "description": "Slávny balkánsky bylinný čaj. Používa sa ako hojivý čaj na srdce, cievy, vysoký tlak.<br>Zloženie: Ránhoj horský (Sidentis scardica) - mursal, citrónová tráva, pomaranč, púčiky limetky, harmanček, nechtík, prírodná vôňa<br>Organická kultivácia"
+        },
+        {
+          "name": "Chung Hao Jasmin",
+          "description": "Jazmínový zelený čínsky čaj<br>Odporúčame viacnálevovú prípravu čaju na čajovom mori."
+        },
+        {
+          "name": "Čaj sladkého leta",
+          "description": "Ovocný čaj vysokej kvality a vynikajúcej chuti.<br>Zloženie: ibištek, ananás, jabĺčka, pomaranč, mrkva, prírodná vôňa"
+        }
+      ]
+    },
+    {
+      "category": "Dammann",
+      "items": [
+        {
+          "name": "Dammann Sachets Yunnan Vert",
+          "description": "zelený čaj, porciovaný, v krištáľových sáčkoch"
+        },
+        {
+          "name": "Earl Grey Čierny čaj",
+          "description": ""
+        },
+        {
+          "name": "Dammann Breakfast čaj",
+          "description": ""
+        },
+        {
+          "name": "Kamilkový Bylinkový čaj",
+          "description": ""
+        },
+        {
+          "name": "Ceylon Čierny čaj",
+          "description": ""
+        },
+        {
+          "name": "Nuit D'ete Ovocný čaj",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "category": "Horúca čokoláda Eracle",
+      "items": [
+        {
+          "name": "Eraclea horúca čokoláda mliečna 32g",
+          "description": ""
+        },
+        {
+          "name": "Eraclea horúca čokoláda tmavá 32g",
+          "description": ""
+        },
+        {
+          "name": "Eraclea horúca čokoláda extra biela 32g",
+          "description": ""
+        },
+        {
+          "name": "Eraclea horúca čokoláda pistáciová 32g",
+          "description": ""
+        },
+        {
+          "name": "Eraclea horúca čokoláda chilli 32g",
+          "description": ""
+        },
+        {
+          "name": "Eraclea horúca čokoláda lieskovooriešková 32g",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "category": "Zapečené bagety",
+      "items": [
+        {
+          "name": "ŠUNKA A SYR",
+          "description": "250 g | ciabatta, Kuracia šunka, syr ementál, paradajky, bazalkové pesto, maslo, šalát | A 1, 5, 6"
+        },
+        {
+          "name": "MOZZARELLA",
+          "description": "230 g | ciabatta, mozzarella, paradajky, bazalka, bazalkové pesto, rukola | A 1, 5, 6"
+        },
+        {
+          "name": "TUNA MELT",
+          "description": "220 g | ciabatta, tuniak, syr, majonéza, šalát | A 1, 3, 5, 6"
+        },
+        {
+          "name": "ÚDENÝ LOSOS",
+          "description": "250 g | ciabatta, losos, syr, ementál, paradajky, bazalkové pesto, maslo, šalát | A 1, 3, 5, 6"
+        }
+      ]
+    },
+    {
+      "category": "Mini snack menu",
+      "items": [
+        {
+          "name": "MIX SYROV S OLIVAMI A PEČIVOM",
+          "description": "150 g | A 1, 6"
+        },
+        {
+          "name": "TANIERIK S ÚDENÝM LOSOSOM A S PEČIVOM",
+          "description": "150 g | A 1, 3, 6"
+        },
+        {
+          "name": "HUMMUS S OLIVAMI, ŠALÁTOM A PEČIVOM",
+          "description": "150 g | A 1"
+        }
+      ]
+    },
+    {
+      "category": "Koláče a dezerty",
+      "items": [
+        {
+          "name": "CHEESECAKE",
+          "description": "Karamelový | Ovocný | Čokoládový | 120 g | A 1, 2, 6, 8"
+        },
+        {
+          "name": "TIRAMISU",
+          "description": "120 g | A 1, 2, 6, 7"
+        },
+        {
+          "name": "RAW KOLÁČE",
+          "description": "Levanduľový | Čokoládový | Kokosový | Goji | 100 g | A 1, 4, 5, 7"
+        }
+      ]
+    },
+    {
+      "category": "Nealko-koktejly",
+      "items": [
+        {
+          "name": "DUBAI",
+          "description": "0,3 l | pomaranč, grep a limetka, mäta, trstinový cukor, limetkový a mangový džús"
+        },
+        {
+          "name": "VIRGIN MOJITO",
+          "description": "0,3 l | limetka, mäta, trstinový cukor, limet a jablk, džús, sóda"
+        },
+        {
+          "name": "STRAWBERRY DE LIGHT",
+          "description": "0,3 l | jahody, sirup, mangový a limetkový džús"
+        },
+        {
+          "name": "VIRGIN COLADA",
+          "description": "0,3 l | ananás, kokosový sirup, smotana"
+        }
+      ]
+    },
+    {
+      "category": "Super Smoothies",
+      "items": [
+        {
+          "name": "Zelené Smoothie 3dl",
+          "description": "banán, špenát, jablkový džús, limetka"
+        },
+        {
+          "name": "Fialové Smoothie 3dl",
+          "description": "Hruška, čučoriedky, jablková šťava"
+        },
+        {
+          "name": "Oranžové Smoothie 3dl",
+          "description": "zázvor, mrkva, mango, pomarančový džús, limetka"
+        },
+        {
+          "name": "Biele Smoothie 3dl",
+          "description": "banán, mandle, mlieko, med A 6"
+        },
+        {
+          "name": "Bonaqua jemne sýtená",
+          "description": "250ml"
+        },
+        {
+          "name": "Bonaqua nesýtená",
+          "description": "250ml"
+        },
+        {
+          "name": "Bonaqua sýtená",
+          "description": "250ml"
+        },
+        {
+          "name": "Cappy Jablko",
+          "description": "200ml"
+        },
+        {
+          "name": "Cappy Jahoda",
+          "description": "200ml"
+        },
+        {
+          "name": "Cappy Multivitamín",
+          "description": "200ml"
+        },
+        {
+          "name": "Cappy pomaranč",
+          "description": "200ml"
+        },
+        {
+          "name": "Coca Cola Zero",
+          "description": "330ml"
+        },
+        {
+          "name": "Coca Cola",
+          "description": "330ml"
+        },
+        {
+          "name": "Fanta Pomaranč",
+          "description": "330ml"
+        },
+        {
+          "name": "Nestea Broskyňa",
+          "description": "200ml"
+        },
+        {
+          "name": "Nestea Zelený čaj",
+          "description": "200ml"
+        },
+        {
+          "name": "Sprite",
+          "description": "330ml"
+        },
+        {
+          "name": "Tonic Kinley",
+          "description": "250ml"
+        },
+        {
+          "name": "Tonic Kinley Ginger Ale",
+          "description": "250ml"
+        },
+        {
+          "name": "Jablková limonáda",
+          "description": "0,3l alebo 0,4l"
+        },
+        {
+          "name": "Jahodová limonáda",
+          "description": "0,3l alebo 0,4l"
+        },
+        {
+          "name": "Bazová limonáda",
+          "description": "0,3l alebo 0,4l"
+        },
+        {
+          "name": "Zlatý bažant Radler nealko citrón",
+          "description": "0,5l"
+        },
+        {
+          "name": "Birell nealko",
+          "description": "0,5l"
+        },
+        {
+          "name": "Birell nealko Pomelo Grep",
+          "description": "0,5l"
+        },
+        {
+          "name": "Steiger nealko tmavé",
+          "description": "0,5l"
+        }
+      ]
+    }
+  ]
+}
