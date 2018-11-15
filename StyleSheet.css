@@ -379,3 +379,9 @@
     opacity: 0.8;
     background: black;
 }
+
+.shisha-gallery img:hover {
+    transform: scale(1.05, 1.05);
+    transition-duration: 0.4s;
+    cursor: pointer;
+}

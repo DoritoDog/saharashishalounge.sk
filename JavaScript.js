@@ -41,11 +41,6 @@ function scrollFunction() {
     }
 }
 
-window.onload = function () {
-    var rating = 4.6;
-    document.getElementById('star-percent').style.width = (rating * 20) + '%';
-}
-
 var currentMenuSlide = 0;
 function refreshMenuShowcase() {
     var slides = [
