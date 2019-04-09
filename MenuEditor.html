@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sahara café Nitra - príjemné posedenie v exotickom prostredí</title>
+    <meta name="description" content="Sahara café Nitra je jedinecný a štýlový podnik s nádychom Orientu, ktorý v Nitre chýbal. My sme pre Vás vytvorili miesto, kde si môžete príjemne posediet s priatelmi pri vodnej fajke. Neváhajte a navštívte nás! U nás si každý pôžitkár príde na svoje.">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="Sahara/sahara-icon.jpg">
+    <link rel="stylesheet" href="StyleSheet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="JavaScript.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a class="navbar-brand" href="#">Sahara café</a>
+        <!-- Links -->
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">Doma</a>
+            </li>
+            <li class="nav-item">
+                <a href="Menu.html" class="nav-link">Menu</a>
+            </li>
+            <li class="nav-item">
+                <a href="WaterPipes.html" class="nav-link">Vodné fajky</a>
+            </li>
+            <li class="nav-item">
+                <a href="https://www.google.com/maps/place/Sahara+Caf%C3%A9/@48.31018,18.087568,19z/data=!4m5!3m4!1s0x0:0xe7aa6a37430b2165!8m2!3d48.3100745!4d18.0875835?hl=en-US" target="_blank" class="nav-link">Kde nás najdete</a>
+            </li>
+            <li class="nav-item">
+                <a href="Contact.html" class="nav-link">Kontakt</a>
+            </li>
+            <li class="nav-item">
+                <a href="Gallery.html" class="nav-link">Galéria</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container mt-5">
+        <div id="sections">
+            <div class="section">
+                <form action="post">
+                    <div class="section-category">
+                        <input type="text" name="category" class="form-control w-50" placeholder="Category...">
+                    </div>
+                    <div class="section-content">
+                        <div class="menu-item">
+                            <h3>New Item</h3>
+                            <label for="name"><b>Name</b></label>
+                            <input type="text" name="name" class="form-control w-50" placeholder="Name...">
+                            <label for="name"><b>Price</b></label>
+                            <input type="text" name="price" class="form-control w-50" placeholder="2,20 €">
+                            <label for="name"><b>Description</b></label>
+                            <input type="text" name="description" class="form-control w-50" placeholder="Description...">
+                        </div>
+
+                        <button class="btn btn-primary">Add a Menu Item</button>
+                    </div>
+
+                    <input type="submit" class="btn btn-primary mt-3" value="Save">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+    var menuJsonj = '';
+
+    var requestURL = 'menu.json';
+    var request = new XMLHttpRequest();
+    request.open('GET', requestURL);
+    request.responseType = 'json';
+    request.send();
+    request.onload = function () {
+        return;
+        var menu = request.response;
+        
+        var sections = document.getElementById("sections");
+        for (var i = 0; i < menu.content.length; i++) {
+            var itemSet = menu.content[i];
+
+            // Add a section
+            var section = document.createElement("div");
+            section.className = "section";
+            sections.appendChild(section);
+
+            // Add a category
+            var category = document.createElement("div");
+            category.className = "section-category";
+            category.innerHTML = itemSet.category;
+            section.appendChild(category);
+
+            // Add content for menu items
+            var content = document.createElement("div");
+            content.className = "section-content";
+            section.appendChild(content);
+
+            for (var c = 0; c < menu.content[i].items.length; c++) {
+                var item = menu.content[i].items[c];
+
+                // Add a menu item
+                var menuItem = document.createElement("div");
+                menuItem.className = "menu-item";
+                content.appendChild(menuItem);
+
+                var itemName = document.createElement("h3");
+                itemName.className = "menu-item-name";
+                itemName.innerHTML = item.name;
+                menuItem.appendChild(itemName);
+
+                var itemDesc = document.createElement("h3");
+                itemDesc.className = "menu-item-name";
+                itemDesc.innerHTML = item.description;
+                menuItem.appendChild(itemDesc);
+            }
+        }
+    }
+    </script>
+</body>
+</html>
