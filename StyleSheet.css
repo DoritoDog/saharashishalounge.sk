@@ -385,3 +385,15 @@
     transition-duration: 0.4s;
     cursor: pointer;
 }
+
+.menu-item {
+    background: whitesmoke;
+    margin-bottom: 20px;
+    width: 50%;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#menu-item {
+    display: none;
+}

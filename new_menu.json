@@ -1,0 +1,430 @@
+{
+  "content": [
+    null,
+    {
+      "category": "Káva",
+      "items": [
+        {
+          "name": "ESPRESSO/RISTRETTO 7 g",
+          "price": "2,20",
+          "description": ""
+        },
+        {
+          "name": "ESPRESSO DOPPIO 14 g",
+          "price": "2,20",
+          "description": ""
+        },
+        {
+          "name": "ESPRESSO MACCHIATO",
+          "price": "2,20",
+          "description": "7 g | mlieko 0,03 l"
+        },
+        {
+          "name": "CAPPUCCINO",
+          "price": "2,20",
+          "description": "7 g | mlieko 0,1 l"
+        },
+        {
+          "name": "CAPPUCCINO XL",
+          "price": "2,20",
+          "description": "14 g | mlieko 0,2 l"
+        },
+        {
+          "name": "CAFFÉ LATTE MACCHIATO",
+          "price": "2,20",
+          "description": "7 g | mlieko 0,2 l"
+        },
+        {
+          "name": "VIEDENSKÁ KÁVA",
+          "price": "2,20",
+          "description": "7 g | šľahačka 30 g"
+        },
+        {
+          "name": "Marocká Káva",
+          "price": "2,20",
+          "description": ""
+        },
+        {
+          "name": "MLIENKO DO KÁVY 30 g",
+          "price": "2,20",
+          "description": ""
+        },
+        {
+          "name": "MANDĽOVÉ ALEBO SÓJOVÉ MLIEKO DO KÁVY 30 g",
+          "price": "2,20",
+          "description": ""
+        },
+        {
+          "name": "SMOTANA MARESI 30 g",
+          "price": "2,20",
+          "description": ""
+        },
+        {
+          "name": "ŠĽAHAČKA 30 g",
+          "price": "2,20",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "category": "Čaj",
+      "items": [
+        {
+          "name": "Pravý Marocký mätový čaj s čerstvou mätou",
+          "price": "2,20",
+          "description": ""
+        },
+        {
+          "name": "Verbenový čaj",
+          "price": "2,20",
+          "description": ""
+        },
+        {
+          "name": "Poklad Perzie",
+          "price": "2,20",
+          "description": "Ovocný čaj vysokej kvality a vynikajúcej chuti.<br>Zloženie: jabĺčka, zázvor, citrón, prírodná vôňa"
+        },
+        {
+          "name": "Pin Pivonk",
+          "price": "2,20",
+          "description": "Voňavý biely čaj vhodný na osvieženie a hormonizáciu tela i duše.<br>Zloženie: Biely čaj Pai Mu Tan, citrónová tráva, kandižované guave, jahody, lupienky slničníc a ruží, prírodná vôňa"
+        },
+        {
+          "name": "Earl Grey Špeciál",
+          "price": "2,20",
+          "description": "Čierny voňavý čaj: Klasický čaj s príjemnou bergamotovou vôňou<br>Zloženie: čierny čaj, silica bergamotu, prírodná vôňa"
+        },
+        {
+          "name": "Nílsky čaj",
+          "price": "2,20",
+          "description": "Príjemný bylinný čaj - Africký čaj rooibos pre pohľadenie duše<br>Výborný s mliekom a kvapkou medu<br>Zloženie: rooibos, kúsky vanilky, prírodná vôňa"
+        },
+        {
+          "name": "Jin-Jang",
+          "price": "2,20",
+          "description": "Čierny voňavý čaj<br>Čaj na očistu, zoštíhlenie a posilnenie tela<br>Zloženie: pu erh, rooibos, honeybush, čínsky čierny čaj, mäta nana, vanilka, jahody, prírodná vôňa"
+        },
+        {
+          "name": "Lemonica",
+          "price": "2,20",
+          "description": "Voňavý zelený čínsky čaj. Svieži čaj očisty a vitality<br>Zloženie: zelený čaj, citrón, pomaranč, kvety nechtíka, prírodná vôňa"
+        },
+        {
+          "name": "Titicaca",
+          "price": "2,20",
+          "description": "Ovocný čaj vysokej kvality a vynikajúcej chuti.<br>Zloženie: ananás, jabĺčka, prírodná vôňa"
+        },
+        {
+          "name": "Balkanika",
+          "price": "2,20",
+          "description": "Slávny balkánsky bylinný čaj. Používa sa ako hojivý čaj na srdce, cievy, vysoký tlak.<br>Zloženie: Ránhoj horský (Sidentis scardica) - mursal, citrónová tráva, pomaranč, púčiky limetky, harmanček, nechtík, prírodná vôňa<br>Organická kultivácia"
+        },
+        {
+          "name": "Chung Hao Jasmin",
+          "price": "2,20",
+          "description": "Jazmínový zelený čínsky čaj<br>Odporúčame viacnálevovú prípravu čaju na čajovom mori."
+        },
+        {
+          "name": "Čaj sladkého leta",
+          "price": "2,20",
+          "description": "Ovocný čaj vysokej kvality a vynikajúcej chuti.<br>Zloženie: ibištek, ananás, jabĺčka, pomaranč, mrkva, prírodná vôňa"
+        }
+      ]
+    },
+    {
+      "category": "Dammann",
+      "items": [
+        {
+          "name": "Dammann Sachets Yunnan Vert",
+          "price": "2,20",
+          "description": "zelený čaj, porciovaný, v krištáľových sáčkoch"
+        },
+        {
+          "name": "Earl Grey Čierny čaj",
+          "price": "2,20",
+          "description": ""
+        },
+        {
+          "name": "Dammann Breakfast čaj",
+          "price": "2,20",
+          "description": ""
+        },
+        {
+          "name": "Kamilkový Bylinkový čaj",
+          "price": "2,20",
+          "description": ""
+        },
+        {
+          "name": "Ceylon Čierny čaj",
+          "price": "2,20",
+          "description": ""
+        },
+        {
+          "name": "Nuit D'ete Ovocný čaj",
+          "price": "2,20",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "category": "Horúca čokoláda Eracle",
+      "items": [
+        {
+          "name": "Eraclea horúca čokoláda mliečna 32g",
+          "price": "2,20",
+          "description": ""
+        },
+        {
+          "name": "Eraclea horúca čokoláda tmavá 32g",
+          "price": "2,20",
+          "description": ""
+        },
+        {
+          "name": "Eraclea horúca čokoláda extra biela 32g",
+          "price": "2,20",
+          "description": ""
+        },
+        {
+          "name": "Eraclea horúca čokoláda pistáciová 32g",
+          "price": "2,20",
+          "description": ""
+        },
+        {
+          "name": "Eraclea horúca čokoláda chilli 32g",
+          "price": "2,20",
+          "description": ""
+        },
+        {
+          "name": "Eraclea horúca čokoláda lieskovooriešková 32g",
+          "price": "2,20",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "category": "Zapečené bagety",
+      "items": [
+        {
+          "name": "ŠUNKA A SYR",
+          "price": "2,20",
+          "description": "250 g | ciabatta, Kuracia šunka, syr ementál, paradajky, bazalkové pesto, maslo, šalát | A 1, 5, 6"
+        },
+        {
+          "name": "MOZZARELLA",
+          "price": "2,20",
+          "description": "230 g | ciabatta, mozzarella, paradajky, bazalka, bazalkové pesto, rukola | A 1, 5, 6"
+        },
+        {
+          "name": "TUNA MELT",
+          "price": "2,20",
+          "description": "220 g | ciabatta, tuniak, syr, majonéza, šalát | A 1, 3, 5, 6"
+        },
+        {
+          "name": "ÚDENÝ LOSOS",
+          "price": "2,20",
+          "description": "250 g | ciabatta, losos, syr, ementál, paradajky, bazalkové pesto, maslo, šalát | A 1, 3, 5, 6"
+        }
+      ]
+    },
+    {
+      "category": "Mini snack menu",
+      "items": [
+        {
+          "name": "MIX SYROV S OLIVAMI A PEČIVOM",
+          "price": "2,20",
+          "description": "150 g | A 1, 6"
+        },
+        {
+          "name": "TANIERIK S ÚDENÝM LOSOSOM A S PEČIVOM",
+          "price": "2,20",
+          "description": "150 g | A 1, 3, 6"
+        },
+        {
+          "name": "HUMMUS S OLIVAMI, ŠALÁTOM A PEČIVOM",
+          "price": "2,20",
+          "description": "150 g | A 1"
+        }
+      ]
+    },
+    {
+      "category": "Koláče a dezerty",
+      "items": [
+        {
+          "name": "CHEESECAKE",
+          "price": "2,20",
+          "description": "Karamelový | Ovocný | Čokoládový | 120 g | A 1, 2, 6, 8"
+        },
+        {
+          "name": "TIRAMISU",
+          "price": "2,20",
+          "description": "120 g | A 1, 2, 6, 7"
+        },
+        {
+          "name": "RAW KOLÁČE",
+          "price": "2,20",
+          "description": "Levanduľový | Čokoládový | Kokosový | Goji | 100 g | A 1, 4, 5, 7"
+        }
+      ]
+    },
+    {
+      "category": "Nealko-koktejly",
+      "items": [
+        {
+          "name": "DUBAI",
+          "price": "2,20",
+          "description": "0,3 l | pomaranč, grep a limetka, mäta, trstinový cukor, limetkový a mangový džús"
+        },
+        {
+          "name": "VIRGIN MOJITO",
+          "price": "2,20",
+          "description": "0,3 l | limetka, mäta, trstinový cukor, limet a jablk, džús, sóda"
+        },
+        {
+          "name": "STRAWBERRY DE LIGHT",
+          "price": "2,20",
+          "description": "0,3 l | jahody, sirup, mangový a limetkový džús"
+        },
+        {
+          "name": "VIRGIN COLADA",
+          "price": "2,20",
+          "description": "0,3 l | ananás, kokosový sirup, smotana"
+        }
+      ]
+    },
+    {
+      "category": "Super Smoothies",
+      "items": [
+        {
+          "name": "Zelené Smoothie 3dl",
+          "price": "2,20",
+          "description": "banán, špenát, jablkový džús, limetka"
+        },
+        {
+          "name": "Fialové Smoothie 3dl",
+          "price": "2,20",
+          "description": "Hruška, čučoriedky, jablková šťava"
+        },
+        {
+          "name": "Oranžové Smoothie 3dl",
+          "price": "2,20",
+          "description": "zázvor, mrkva, mango, pomarančový džús, limetka"
+        },
+        {
+          "name": "Biele Smoothie 3dl",
+          "price": "2,20",
+          "description": "banán, mandle, mlieko, med A 6"
+        },
+        {
+          "name": "Bonaqua jemne sýtená",
+          "price": "2,20",
+          "description": "250ml"
+        },
+        {
+          "name": "Bonaqua nesýtená",
+          "price": "2,20",
+          "description": "250ml"
+        },
+        {
+          "name": "Bonaqua sýtená",
+          "price": "2,20",
+          "description": "250ml"
+        },
+        {
+          "name": "Cappy Jablko",
+          "price": "2,20",
+          "description": "200ml"
+        },
+        {
+          "name": "Cappy Jahoda",
+          "price": "2,20",
+          "description": "200ml"
+        },
+        {
+          "name": "Cappy Multivitamín",
+          "price": "2,20",
+          "description": "200ml"
+        },
+        {
+          "name": "Cappy pomaranč",
+          "price": "2,20",
+          "description": "200ml"
+        },
+        {
+          "name": "Coca Cola Zero",
+          "price": "2,20",
+          "description": "330ml"
+        },
+        {
+          "name": "Coca Cola",
+          "price": "2,20",
+          "description": "330ml"
+        },
+        {
+          "name": "Fanta Pomaranč",
+          "price": "2,20",
+          "description": "330ml"
+        },
+        {
+          "name": "Nestea Broskyňa",
+          "price": "2,20",
+          "description": "200ml"
+        },
+        {
+          "name": "Nestea Zelený čaj",
+          "price": "2,20",
+          "description": "200ml"
+        },
+        {
+          "name": "Sprite",
+          "price": "2,20",
+          "description": "330ml"
+        },
+        {
+          "name": "Tonic Kinley",
+          "price": "2,20",
+          "description": "250ml"
+        },
+        {
+          "name": "Tonic Kinley Ginger Ale",
+          "price": "2,20",
+          "description": "250ml"
+        },
+        {
+          "name": "Jablková limonáda",
+          "price": "2,20",
+          "description": "0,3l alebo 0,4l"
+        },
+        {
+          "name": "Jahodová limonáda",
+          "price": "2,20",
+          "description": "0,3l alebo 0,4l"
+        },
+        {
+          "name": "Bazová limonáda",
+          "price": "2,20",
+          "description": "0,3l alebo 0,4l"
+        },
+        {
+          "name": "Zlatý bažant Radler nealko citrón",
+          "price": "2,20",
+          "description": "0,5l"
+        },
+        {
+          "name": "Birell nealko",
+          "price": "2,20",
+          "description": "0,5l"
+        },
+        {
+          "name": "Birell nealko Pomelo Grep",
+          "price": "2,20",
+          "description": "0,5l"
+        },
+        {
+          "name": "Steiger nealko tmavé",
+          "price": "2,20",
+          "description": "0,5l"
+        }
+      ]
+    }
+  ]
+}

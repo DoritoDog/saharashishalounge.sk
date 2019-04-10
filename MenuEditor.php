@@ -1,3 +1,12 @@
+<?php
+
+if (isset($_POST['menu'])) {
+    $file = 'C:\wamp64\www\SaharaWebsite\new_menu.json';
+    file_put_contents($file, $_POST['menu']);
+}
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,7 +20,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="JavaScript.js"></script>
 </head>
 <body>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
@@ -40,35 +48,54 @@
     </nav>
 
     <div class="container mt-5">
+        <button class="btn btn-primary mb-2" onclick="saveMenu();">Save</button>
+
         <div id="sections">
             <div class="section">
-                <form action="post">
-                    <div class="section-category">
-                        <input type="text" name="category" class="form-control w-50" placeholder="Category...">
-                    </div>
-                    <div class="section-content">
-                        <div class="menu-item">
-                            <h3>New Item</h3>
-                            <label for="name"><b>Name</b></label>
-                            <input type="text" name="name" class="form-control w-50" placeholder="Name...">
-                            <label for="name"><b>Price</b></label>
-                            <input type="text" name="price" class="form-control w-50" placeholder="2,20 €">
-                            <label for="name"><b>Description</b></label>
-                            <input type="text" name="description" class="form-control w-50" placeholder="Description...">
-                        </div>
-
-                        <button class="btn btn-primary">Add a Menu Item</button>
+                <div class="section-content">
+                    <div id="menu-item">
+                        <label for="name"><b>Name</b></label>
+                        <input type="text" name="name" class="form-control" placeholder="Name...">
+                        <label for="name"><b>Price</b></label>
+                        <input type="text" name="price" class="form-control" placeholder="2,20 €">
+                        <label for="name"><b>Description</b></label>
+                        <input type="text" name="description" class="form-control">
                     </div>
 
-                    <input type="submit" class="btn btn-primary mt-3" value="Save">
-                </form>
+                    <!-- <button class="btn btn-primary">Add a Menu Item</button> -->
+                </div>
             </div>
         </div>
     </div>
 
     <script>
 
-    var menuJsonj = '';
+    function saveMenu() {
+        var sections = document.getElementsByClassName('section');
+        var menuObject = { "content": [] };
+         // Start at one to skip the first section used for copying
+        for (var i = 1; i < sections.length; i++) {
+           
+            menuObject.content[i] = {
+                "category": sections[i].childNodes[0].childNodes[1].value,
+                "items": []
+            };
+            
+            var menuItems = sections[i].childNodes[1].children;
+            for (var c = 0; c < menuItems.length; c++) {
+                var menuItem = menuItems[c];
+
+                menuObject.content[i].items.push({
+                    "name": menuItem.childNodes[3].value,
+                    "price": menuItem.childNodes[7].value,
+                    "description": menuItem.childNodes[11].value
+                });
+            }
+        }
+        
+        console.log(menuObject);
+        //$.post(window.location, {menu: JSON.stringify(menuObject, undefined, 2)}, function(result) {});
+    }
 
     var requestURL = 'menu.json';
     var request = new XMLHttpRequest();
@@ -76,11 +103,10 @@
     request.responseType = 'json';
     request.send();
     request.onload = function () {
-        return;
         var menu = request.response;
         
         var sections = document.getElementById("sections");
-        for (var i = 0; i < menu.content.length; i++) {
+        for (var i = 0, classNumber = 0; i < menu.content.length; i++) {
             var itemSet = menu.content[i];
 
             // Add a section
@@ -91,7 +117,8 @@
             // Add a category
             var category = document.createElement("div");
             category.className = "section-category";
-            category.innerHTML = itemSet.category;
+            category.innerHTML = '<label for="category"><b>Category</b></label><input type="text" name="category" class="form-control w-50 mb-4 category-input" placeholder="Category...">';
+            category.childNodes[1].value = itemSet.category;
             section.appendChild(category);
 
             // Add content for menu items
@@ -99,23 +126,19 @@
             content.className = "section-content";
             section.appendChild(content);
 
-            for (var c = 0; c < menu.content[i].items.length; c++) {
+            for (var c = 0; c < menu.content[i].items.length; c++, classNumber++) {
                 var item = menu.content[i].items[c];
 
                 // Add a menu item
                 var menuItem = document.createElement("div");
-                menuItem.className = "menu-item";
+                menuItem.className = "menu-item menu-item-" + classNumber;
+                menuItem.innerHTML = document.getElementById('menu-item').innerHTML;
+                menuItem.id = '';
                 content.appendChild(menuItem);
 
-                var itemName = document.createElement("h3");
-                itemName.className = "menu-item-name";
-                itemName.innerHTML = item.name;
-                menuItem.appendChild(itemName);
-
-                var itemDesc = document.createElement("h3");
-                itemDesc.className = "menu-item-name";
-                itemDesc.innerHTML = item.description;
-                menuItem.appendChild(itemDesc);
+                $('.menu-item-' + classNumber).find('.form-control')[0].value = item.name;
+                $('.menu-item-' + classNumber).find('.form-control')[1].value = '2,20';
+                $('.menu-item-' + classNumber).find('.form-control')[2].value = item.description;
             }
         }
     }
