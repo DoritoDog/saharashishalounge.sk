@@ -3,6 +3,7 @@
     null,
     {
       "category": "Káva",
+      "description": "Vychutnajte si chvíľku s našou kávou. Nasajte arómu kávových zŕn najvyššej kvality. Objavte v každom dúšku nové zážitky a ducha krajín, ktorých kultúra je preslávená tou najlepšou kávou.",
       "items": [
         {
           "name": "ESPRESSO/RISTRETTO 7 g",
@@ -68,6 +69,7 @@
     },
     {
       "category": "Čaj",
+      "description": "Pre všetkých fanúšikov snáď najznámejšieho teplého nápoja prinášame to najlepšie zo sveta čajov. Relaxujte pri šálke pravého Marockeho matoveho čaju z lístkov najvyššej akosti alebo pri nápoji z čerstvých ingrediencií.",
       "items": [
         {
           "name": "Pravý Marocký mätový čaj s čerstvou mätou",
@@ -133,6 +135,7 @@
     },
     {
       "category": "Dammann",
+      "description": "",
       "items": [
         {
           "name": "Dammann Sachets Yunnan Vert",
@@ -168,6 +171,7 @@
     },
     {
       "category": "Horúca čokoláda Eracle",
+      "description": "Mohlo by sa zdať neuveriteľné, že presne vieme, kto a kde naše kakaové bôby pestuje a spracováva. My vám to vysvetlíme. Môže za to kakao Fino de Aroma. Toto označenie udeľuje Svetová kakaová organizácia a používa sa pri 6% celkovej svetovej produkcie kakaa. V našej produkcii má podiel 100%. Umožňuje vedieť o kakaových bôboch každý detail a určiť ich pôvod.  Vďaka tomu môžeme vyrábať jednoodrodové plantážne čokolády, ktoré obsahujú trstinový cukor a ostatné ingrediencie z rovnakej plantáže ako sú spracované bôby. Fino de Aroma sa pestuje predovšetkým v Kolumbii, Ekvádore, Venezuele a Peru a tvoria ho odrody criollo a trinitario. Tie sú charakteristické ovocnou a kvetinovou vôňou s náznakmi orechového sladu. Zvyšné percentá svetovej produkcie tvorí odroda forastero, ktorá sa pestuje v Afrike, je odolná voči klíme a má ostrú nakyslastú chuť. Ak máte chuť na skutočnú čokoládu, hľadajte označenie Fino de Aroma",
       "items": [
         {
           "name": "Eraclea horúca čokoláda mliečna 32g",
@@ -203,6 +207,7 @@
     },
     {
       "category": "Zapečené bagety",
+      "description": "Chrumkavé, voňavé bagety plné tých najlahodnejších surovín čakajú len na vás. Vychutnajte si dokonalú harmóniu chutí.",
       "items": [
         {
           "name": "ŠUNKA A SYR",
@@ -228,6 +233,7 @@
     },
     {
       "category": "Mini snack menu",
+      "description": "Chutné minútky, ktoré v sebe spájajú známe chuti v najlepších kombináciách. Nechajte sa rozmaznávať jemnou chuťou vždy čerstvých a zdravých snackov.",
       "items": [
         {
           "name": "MIX SYROV S OLIVAMI A PEČIVOM",
@@ -248,6 +254,7 @@
     },
     {
       "category": "Koláče a dezerty",
+      "description": "Tie najlepšie dezerty pripravované so srdcom pre vaše mlsné jazýčky. Vždy čerstvé, jemné a krehké. Vychutnajte si každé sústo sladkých, pečených alebo RAW koláčov a dezertov.",
       "items": [
         {
           "name": "CHEESECAKE",
@@ -268,6 +275,7 @@
     },
     {
       "category": "Nealko-koktejly",
+      "description": "Bavte sa a odhaľujte ako chutí život aj s jasnou mysľou.",
       "items": [
         {
           "name": "DUBAI",
@@ -293,6 +301,7 @@
     },
     {
       "category": "Super Smoothies",
+      "description": "",
       "items": [
         {
           "name": "Zelené Smoothie 3dl",
