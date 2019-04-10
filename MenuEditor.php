@@ -1,7 +1,7 @@
 <?php
 
 if (isset($_POST['menu'])) {
-    $file = 'C:\wamp64\www\SaharaWebsite\new_menu.json';
+    $file = 'D:\xampp\htdocs\saharashishalounge.sk\new_menu.json'; //'C:\wamp64\www\SaharaWebsite\new_menu.json';
     file_put_contents($file, $_POST['menu']);
 }
 
@@ -76,16 +76,19 @@ if (isset($_POST['menu'])) {
          // Start at one to skip the first section used for copying
         for (var i = 1; i < sections.length; i++) {
            
-            menuObject.content[i] = {
+           // i - 1 to prevent the first entry from being null.
+            menuObject.content[i - 1] = {
                 "category": sections[i].childNodes[0].childNodes[1].value,
+                "description": sections[i].childNodes[1].childNodes[1].value,
                 "items": []
             };
             
-            var menuItems = sections[i].childNodes[1].children;
+            var menuItems = sections[i].childNodes[2].children;
             for (var c = 0; c < menuItems.length; c++) {
+
                 var menuItem = menuItems[c];
 
-                menuObject.content[i].items.push({
+                menuObject.content[i - 1].items.push({
                     "name": menuItem.childNodes[3].value,
                     "price": menuItem.childNodes[7].value,
                     "description": menuItem.childNodes[11].value
@@ -93,11 +96,10 @@ if (isset($_POST['menu'])) {
             }
         }
         
-        console.log(menuObject);
-        //$.post(window.location, {menu: JSON.stringify(menuObject, undefined, 2)}, function(result) {});
+        $.post(window.location, {menu: JSON.stringify(menuObject, undefined, 2)}, function(result) {});
     }
 
-    var requestURL = 'menu.json';
+    var requestURL = 'new_menu.json';
     var request = new XMLHttpRequest();
     request.open('GET', requestURL);
     request.responseType = 'json';
@@ -120,6 +122,13 @@ if (isset($_POST['menu'])) {
             category.innerHTML = '<label for="category"><b>Category</b></label><input type="text" name="category" class="form-control w-50 mb-4 category-input" placeholder="Category...">';
             category.childNodes[1].value = itemSet.category;
             section.appendChild(category);
+
+            // Add a category
+            var sectionDesc = document.createElement("div");
+            sectionDesc.className = "section-desc";
+            sectionDesc.innerHTML = '<label for="desc"><b>Description</b></label><input type="text" name="desc" class="form-control w-50 mb-4" placeholder="Description...">';
+            sectionDesc.childNodes[1].value = itemSet.description;
+            section.appendChild(sectionDesc);
 
             // Add content for menu items
             var content = document.createElement("div");
